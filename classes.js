@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', start)
 
 function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
-  // one()
+  one()
+  two()
+
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -17,6 +19,13 @@ function one () {
   // Next, we apply a new CSS class to it:
   one.classList.add('blue')
 }
+
+function two () {
+  var two = document.getElementById('two')
+  two.classList.toggle('green')
+  //what is the difference between add vs toggle?
+}
+
 
 // CREATE FUNCTION two HERE
 
