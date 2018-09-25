@@ -23,6 +23,12 @@ div.blue {
 div.green {
   background-color: green;
 }
+div.yellow {
+  background-color: yellow;
+  border-style: dotted;
+  border-width: 3em;
+  border-color: aqua;
+}
 
 .invisible {
   display: none;

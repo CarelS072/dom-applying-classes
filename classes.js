@@ -7,7 +7,7 @@ function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
   one()
   two()
-
+  three()
     
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -26,6 +26,10 @@ function two () {
   //what is the difference between add vs toggle?
 }
 
+function three() {
+  var three = document.getElementById('three')
+  three.classList.add('yellow')
+}
 
 // CREATE FUNCTION two HERE
 
